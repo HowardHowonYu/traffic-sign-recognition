@@ -26,16 +26,18 @@
 - 영상에서 표지판이 인식되는 이미지의 모양을 고려하여, 이미지 왜곡, 회전등의 값을 설정
 
 ### model
-<img src="./image/model.png" width="800px">
+<img src="./image/model.png" width="300px">
 
 #### accuracy, loss 
-<img src="./image/plot.png" width="1350px">
+<img src="./image/plot.png" width="500px">
+
   - EarlyStopping을 사용해 val_loss를 모니터함.
   - 총 26번의 epoch가 돌았음.
 
 
 ## 결과분석
 <img src="./image/result.png" width="1350px">
-- 사람의 눈으로 판단하기 힘든 데이터들만 잘 예측해 내지 못함
-- image augementation 과정에서 만들어진 이상치 데이터들을 처리할 방법 강구
-- 추후 YOLO에 대한 공부 필요
+
+  - 사람의 눈으로 판단하기 힘든 데이터들만 잘 예측해 내지 못함
+  - image augementation 과정에서 만들어진 이상치 데이터들을 처리할 방법 강구
+  - 추후 YOLO에 대한 공부 필요
