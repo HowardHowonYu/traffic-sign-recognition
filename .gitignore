@@ -1,7 +1,8 @@
-*.png
-*.jpg
+
 *.npy
 *.model
+traffic_image/
+traffin_sign_png/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
