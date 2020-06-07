@@ -3,6 +3,9 @@
 *.model
 traffic_image/
 traffin_sign_png/
+*.jpg
+*.jpeg
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
