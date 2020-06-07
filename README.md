@@ -38,6 +38,11 @@
 ## 결과분석
 <img src="./image/result.png" width="1350px">
 
-  - 사람의 눈으로 판단하기 힘든 데이터들만 잘 예측해 내지 못함
-  - image augementation 과정에서 만들어진 이상치 데이터들을 처리할 방법 강구
-  - 추후 YOLO에 대한 공부 필요
+  - 사람의 눈으로 판단하기 힘든 데이터들은 예측해 내지 못함
+  
+<img src="./image/result2.png" width="1350px">
+  - 실제 표지판 사진으로 예측
+  
+## 한계 및 개선점
+ - Image Augementation의 옵션을 더 조정해 모델 성능 개선이 필요 (이미지 수량 및 품질 개선)
+ - 모델링 개선 필요
